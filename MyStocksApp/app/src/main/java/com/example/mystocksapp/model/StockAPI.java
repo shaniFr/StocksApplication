@@ -12,7 +12,7 @@ import okhttp3.Request;
 import okhttp3.Response;
 
 public class StockAPI {
-    private static final String API_KEY = "cihh5ihr01qik1h48p30cihh5ihr01qik1h48p3g";
+    private static final String API_KEY = "YOUR_API_KEY";
     private static Handler handler;
 
 
