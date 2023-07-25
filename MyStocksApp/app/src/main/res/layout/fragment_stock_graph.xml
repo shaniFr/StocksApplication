@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroud_stock">
+
+    <LinearLayout
+        android:id="@+id/c"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/symbolTxt"
+            android:layout_width="395dp"
+            android:layout_height="86dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/bevan"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/black"
+            android:textAllCaps="true"
+            android:textSize="40sp" />
+    </LinearLayout>
+
+    <!--WebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/radioGroup" /-->
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="83dp"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <RadioButton
+            android:id="@+id/radioButtonDaily"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bevan"
+            android:text="Daily"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/radioButtonWeekly"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bevan"
+            android:text="Weekly"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/radioButtonMonthly"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bevan"
+            android:text="Monthly"
+            android:textSize="16sp" />
+    </RadioGroup>
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/lineChart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:layout_below="@id/radioGroup" />
+
+
+</RelativeLayout>

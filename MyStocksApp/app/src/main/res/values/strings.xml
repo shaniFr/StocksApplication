@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MyStocksApp</string>
+    <string name="my_stocks">My Stocks</string>
+    <string name="show_stocks">SHOW ME MY STOCKS</string>
+    <string name="stock_symbol">Stock Symbol</string>
+    <string name="price">Price[$]</string>
+    <string name="daily_change">Daily Change[%]</string>
+    <string name="add_stock">ADD STOCK</string>
+    <string name="search_stock">Enter a stock symbol</string>
+    <string name="search_button">SEARCH STOCK</string>
+</resources>
