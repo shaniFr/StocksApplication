@@ -238,7 +238,7 @@ public class StockGraphFragment extends Fragment {
 
         // Construct the final API URL
         String apiUrl = baseUrl + "?symbol=" + symbol + "&resolution=" + resolution +
-                "&from=" + fromTimestamp + "&to=" + toTimestamp + "&token=cihh5ihr01qik1h48p30cihh5ihr01qik1h48p3g";
+                "&from=" + fromTimestamp + "&to=" + toTimestamp + "&token=YOUR_API_KEY";
 
         return apiUrl;
     }
